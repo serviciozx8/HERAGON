@@ -1,0 +1,364 @@
+/* Importar la fuente de Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+:root {
+  --White: #ffffff;
+  --Black: #000;
+  --color2: #6d2b1b;
+  --color1: #ebc9a0;
+  --color3: #D3C891;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: var(--color1) !important;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: #9C0808;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 24px;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #9C0808;
+}
+
+.back-to-top i {
+    vertical-align: middle;
+}
+
+.navbar {
+    background-color: transparent;
+    font-size: 25px;
+  }
+.navbar .opc {
+    color: var(--color1) !important;
+    font-weight: bold;
+}
+.navbar .opc:hover {
+    color: var(--color2) !important;
+    font-weight: bold;
+}
+
+.cover-container {
+  background: linear-gradient(rgba(145, 140, 140, 0.5), rgba(126, 120, 120, 0.5)),
+    url("http://localhost/HERAGON//Views/assets/img/imagen4.jpg") no-repeat
+      center center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  min-height: 90vh;
+}
+
+.cover-container .inicio {
+  min-height: 60vh;
+  align-content: center;
+}
+.cover-container .inicio h1 {
+    margin-bottom: 1.5rem;
+}
+
+.cover-container .inicio p{
+    margin-bottom: 1.5rem; 
+}
+
+.cover-container .inicio a {
+    margin-top: 1rem;
+    background-color: var(--color2);
+    color: var(--White);
+    border: 2px solid var(--White);
+}
+.cover-container .inicio a:hover{
+    margin-top: 1rem;
+    background-color: var(--color1);
+    color: var(--Black);
+    border: 2px solid var(--Black);
+}
+.home .linea-vertical{
+    background-color: aqua;
+}
+.home .linea-vertical .flecha{
+    display: flex;             
+    align-items: center;    
+    justify-content: center;         
+    background-color: var(--color1);      
+    font-size: 4em;          
+    text-align: center;       
+    margin: 0 auto;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.home .parte1 {
+    padding: 2rem;
+}
+.home .parte1 .feature p {
+    font-size: 20px;
+}
+
+.home .parte1 .feature img {
+    border-radius: 0.5rem; 
+    object-fit: cover; 
+    border: 3px solid var(--color2);
+}
+.home .parte1 .carousel-item img {
+    width: 75%;
+    height: 400px;
+    object-fit: cover; 
+}
+
+.home .parte1 .feature {
+    text-align: center;
+    margin-bottom: 1.5rem; 
+}
+
+.home .parte1 .feature .feature-icon {
+    display: flex;             
+    align-items: center;    
+    justify-content: center; 
+    width: 60px;              
+    height: 60px;             
+    background-color: var(--color2); 
+    border-radius: 50%;      
+    color: #D3C891;         
+    font-size: 2em;          
+    text-align: center;       
+    margin: 0 auto;          
+}
+.home .parte1 .feature h2 {
+    margin-top: 20px;
+}
+.home .linea-vertical .flecha2{
+    display: flex;             
+    align-items: center;    
+    justify-content: center;         
+    background-color: var(--color2);      
+    font-size: 4em;          
+    text-align: center;       
+    margin: 0 auto;  
+    padding-top: 10px;
+
+}
+.home .parte2 {
+    background-color: var(--color2);
+}
+.home .parte2 .bloque1{
+    padding-top: 20px;
+    color: var(--White);
+}
+.home .parte2 .bloque1 .row h2{
+font-size: 40px;
+}
+.home .parte2 .bloque1 .ver{
+    margin-top: 1rem;
+    background-color: var(--color1);
+    color: var(--Black);
+    border: 2px solid var(--Black);
+}
+.home .parte2 .bloque1 .ver:hover{
+    margin-top: 1rem;
+    background-color: var(--color2);
+    color: var(--White);
+    border: 2px solid var(--White);
+}
+
+.col-md-5 video {
+    width: 90%;
+    height: 100%;
+    max-height: 600px;
+    border-radius: 0.5rem;
+    border: 5px solid var(--color1);
+    object-fit: cover;
+}
+.home .parte3 .bloque2{
+    padding-top: 20px;
+    color: var(--Black);
+}
+.home .parte3 .bloque2 .row h2{
+    font-size: 40px;
+}
+.home .parte3 .bloque2 .ver{
+    margin-top: 1rem;
+    background-color: var(--color2);
+    color: var(--White);
+    border: 2px solid var(--White);
+}
+.home .parte3 .bloque2 .ver:hover{
+    margin-top: 1rem;
+    background-color: var(--color1);
+    color: var(--Black);
+    border: 2px solid var(--Black);
+}
+.home .parte3 .carousel-item img {
+    width: 75%;
+    height: 400px;
+    object-fit: cover; 
+    border-radius: 0.5rem; 
+    object-fit: cover; 
+    border: 3px solid var(--color2);
+}
+.home .parte4 {
+    background-color: var(--color2);
+}
+.home .parte4 .bloque3{
+    padding-top: 20px;
+    color: var(--White);
+}
+.home .parte4 .bloque3 .row h2{
+font-size: 40px;
+}
+.home .parte4 .bloque3 .ver{
+    margin-top: 1rem;
+    background-color: var(--color1);
+    color: var(--Black);
+    border: 2px solid var(--Black);
+}
+.home .parte4 .bloque3 .ver:hover{
+    margin-top: 1rem;
+    background-color: var(--color2);
+    color: var(--White);
+    border: 2px solid var(--White);
+}
+.home .parte4 .bloque3 img {
+    border-radius: 0.5rem; 
+    object-fit: cover; 
+    border: 3px solid var(--color1);
+}
+.home .parte4 .carousel-item img {
+    width: 75%;
+    height: 400px;
+    object-fit: cover; 
+}
+
+.products {
+    background-color: var(--color2);
+    width: 100%;
+    padding: 30px;
+}
+
+.products .texto {
+    color: #ffffff; 
+}
+
+.products .propa {
+    gap: 5px;
+}
+
+.products .vinos {
+    border-radius: 10px;
+    border: 3px #262626 solid;
+    flex-direction: column;
+    display: inline-flex;
+    min-width: 320px;
+    max-width: 320px;
+}
+
+.products .vinos .d1 {
+    align-self: stretch;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.products .vinos .d1 .product-card {
+    background-color: var(--color1);
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.products .vinos .d1 .product-card img {
+    color: #000000;
+    width: 100%;
+    max-height: 300px;
+}
+
+.products .vinos .d1 .product-card {
+    position: relative;
+}
+
+.products .vinos .d1 .product-card .popular {
+    position: absolute;
+    top: 20px; /* Ajusta según sea necesario */
+    left: 20px; /* Ajusta según sea necesario */
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+
+.products .vinos .d1 .product-card h4 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+
+.products .vinos .d1 .product-card p {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: start !important;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid var(--color2);
+}
+
+.products .vinos .d1 .product-card .btn {
+    color: var(--White);
+    background-color: var(--color2);
+    border-color: var(--White);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .textox {
+        font-size: 20px !important;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .textox {
+        font-size: 22px !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .textox {
+        font-size: 23.5px !important;
+    }
+}
