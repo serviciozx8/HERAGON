@@ -60,7 +60,7 @@ body {
 
 .cover-container {
   background: linear-gradient(rgba(145, 140, 140, 0.5), rgba(126, 120, 120, 0.5)),
-    url("http://localhost/HERAGON//Views/assets/img/imagen4.jpg") no-repeat
+    url("assets/img/imagen4.jpg") no-repeat
       center center;
   background-size: cover;
   color: rgb(255, 255, 255);
