@@ -279,20 +279,24 @@ body {
 }
 
 .products {
+
+}
+.products .product1{
     background-color: var(--color2);
     width: 100%;
     padding: 30px;
 }
 
-.products .texto {
+
+.products .product1 .texto {
     color: #ffffff;
 }
 
-.products .propa {
+.products .product1 .propa {
     gap: 5px;
 }
 
-.products .vinos {
+.products .product1 .vinos {
     border-radius: 10px;
     border: 3px #262626 solid;
     flex-direction: column;
@@ -301,7 +305,7 @@ body {
     max-width: 320px;
 }
 
-.products .vinos .d1 {
+.products .product1 .vinos .d1 {
     align-self: stretch;
     height: auto;
     flex-direction: column;
@@ -310,7 +314,7 @@ body {
     display: flex;
 }
 
-.products .vinos .d1 .product-card {
+.products .product1 .vinos .d1 .product-card {
     background-color: var(--color1);
     justify-content: center;
     align-items: center;
@@ -319,23 +323,20 @@ body {
     flex-direction: column;
     width: 100%;
 }
-
-.products .vinos .d1 .product-card img {
+.products .product1 .vinos .d1 .product-card img {
     color: #000000;
     width: 100%;
     max-height: 300px;
 }
 
-.products .vinos .d1 .product-card {
+.products .product1 .vinos .d1 .product-card {
     position: relative;
 }
 
-.products .vinos .d1 .product-card .popular {
+.products .product1 .vinos .d1 .product-card .popular {
     position: absolute;
     top: 20px;
-    /* Ajusta según sea necesario */
     left: 20px;
-    /* Ajusta según sea necesario */
     background-color: #ff0000;
     color: #ffffff;
     padding: 5px 10px;
@@ -346,14 +347,14 @@ body {
 }
 
 
-.products .vinos .d1 .product-card h4 {
+.products .product1.vinos .d1 .product-card h4 {
     font-size: 25px;
     font-weight: bold;
     line-height: 24px;
     text-align: center;
 }
 
-.products .vinos .d1 .product-card p {
+.products .product1 .vinos .d1 .product-card p {
     font-size: 15px;
     font-weight: bold;
     text-align: start !important;
@@ -361,14 +362,99 @@ body {
     border-radius: 10px;
     border: 3px solid var(--color2);
 }
-
-.products .vinos .d1 .product-card .btn {
+.products .product1 .vinos .d1 .product-card .btn {
     color: var(--White);
     background-color: var(--color2);
     border-color: var(--White);
 }
 
+.products .product2{
+    background-color: var(--color1);
+    width: 100%;
+    padding: 30px;
+}
 
+.products .product2 .texto2 {
+    color: var(--Black);
+}
+
+.products .product2 .propa {
+    gap: 5px;
+}
+
+.products .product2 .chocolate {
+    border-radius: 10px;
+    border: 3px var(--White) solid;
+    flex-direction: column;
+    display: inline-flex;
+    min-width: 320px;
+    max-width: 320px;
+}
+
+.products .product2 .chocolate .d1 {
+    align-self: stretch;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.products .product2 .chocolate .d1 .product-card {
+    background-color: var(--color2);
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.products .product2 .chocolate .d1 .product-card img {
+    color: var(--Black);
+    width: 100%;
+    max-height: 300px;
+}
+
+.products .product2 .chocolate .d1 .product-card {
+    position: relative;
+}
+
+.products .product2 .chocolate .d1 .product-card .popular {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+
+.products .product2 .chocolate .d1 .product-card h4 {
+    color: var(--White);
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+}
+
+.products .product2 .chocolate .d1 .product-card p {
+    color: var(--White);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: start !important;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid var(--color1);
+}
+.products .product2 .chocolate .d1 .product-card .btn {
+    color: var(--Black);
+    background-color: var(--color1);
+    border-color: var(--Black);
+}
 
 
 
