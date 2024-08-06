@@ -412,7 +412,7 @@ body {
 .products .product2 .chocolate .d1 .product-card img {
     color: var(--Black);
     width: 100%;
-    max-height: 300px;
+    height: 300px;
 }
 
 .products .product2 .chocolate .d1 .product-card {
