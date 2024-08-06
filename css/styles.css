@@ -95,10 +95,6 @@ body {
     border: 2px solid var(--Black);
 }
 
-.home .linea-vertical {
-    background-color: aqua;
-}
-
 .home .linea-vertical .flecha {
     display: flex;
     align-items: center;
@@ -120,8 +116,10 @@ body {
 }
 
 .home .parte1 .feature p {
-    font-size: 20px;
-}
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333; /* Color del texto para mejor legibilidad */
+    margin-top: 10px;}
 
 .home .parte1 .feature img {
     margin-top: 35px;
@@ -131,14 +129,20 @@ body {
 }
 
 .home .parte1 .carousel-item img {
-    width: 75%;
-    height: 400px;
+    width: 100%;
+    height: 400px; /* Ajusta según el tamaño deseado */
     object-fit: cover;
+    border-radius: 10px;
+}
+.home .parte1 .carousel-control-prev-icon,
+.home .parte1 .carousel-control-next-icon {
+    background-color: var(--color2);
+    border-radius: 50%;
 }
 
 .home .parte1 .feature {
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .home .parte1 .feature .feature-icon {
@@ -156,8 +160,10 @@ body {
 }
 
 .home .parte1 .feature h2 {
-    margin-top: 20px;
-}
+    font-size: 2em;
+    color: var(--PrimaryColor);
+    margin-top: 15px;
+    margin-bottom: 10px;}
 
 .home .linea-vertical .flecha2 {
     display: flex;
@@ -278,9 +284,7 @@ body {
     object-fit: cover;
 }
 
-.products {
 
-}
 .products .product1{
     background-color: var(--color2);
     width: 100%;
@@ -288,12 +292,14 @@ body {
 }
 
 
-.products .product1 .texto {
-    color: #ffffff;
-}
-.products .product1 h1{
+.products .product1 .texto1 {
     font-size: 68px;
     font-weight: bold;
+    color: var(--White);
+    margin-bottom: 20px;
+}
+.products .product1 .texto2 {
+    font-size: 20px;
     color: var(--White);
     margin-bottom: 20px;
 }
@@ -314,7 +320,7 @@ body {
 }
 .products .product1 .vinos:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    box-shadow: 0 8px 16px rgba(236, 236, 236, 0.3);
 }
 
 .products .product1 .vinos .d1 {
@@ -350,9 +356,6 @@ body {
     margin-bottom: 20px;
 }
 
-.products .product1 hr {
-    border-top: 3px dashed var(--color2);
-}
 .products .product1 .vinos .d1 .product-card {
     position: relative;
 }
@@ -371,7 +374,7 @@ body {
 }
 
 
-.products .product1.vinos .d1 .product-card h4 {
+.products .product1 .vinos .d1 .product-card h4 {
     font-size: 25px;
     font-weight: bold;
     line-height: 24px;
@@ -379,15 +382,23 @@ body {
 }
 
 .products .product1 .vinos .d1 .product-card p {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
-    text-align: start !important;
+    text-align: end;
+    margin: 10px 0;
     padding: 5px;
-    border-radius: 10px;
-    border: 3px solid var(--color2);
+    color: var(--PrimaryColor);
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--PrimaryColor);
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-style: italic;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 .products .product1 .vinos .d1 .product-card .btn {
-    color: var(--White);
     color: var(--White);
     background-color: var(--color2);
     border: 2px solid var(--color2);
@@ -402,10 +413,22 @@ body {
     background-color: var(--White);
     color: var(--color2);
 }
+
+
+
+
+
+
 .products .product2{
     background-color: var(--color1);
     width: 100%;
     padding: 30px;
+}
+.products .product2 h2 {
+    font-size: 38px;
+    font-weight: bold;
+    color: var(--Black);
+    margin-bottom: 20px;
 }
 
 .products .product2 .texto2 {
@@ -423,8 +446,14 @@ body {
     display: inline-flex;
     min-width: 320px;
     max-width: 320px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.products .product2 .chocolate:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
 .products .product2 .chocolate .d1 {
     align-self: stretch;
     height: auto;
@@ -447,6 +476,9 @@ body {
     color: var(--Black);
     width: 100%;
     height: 300px;
+    border: 2px solid var(--color1);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px var(--color1);
 }
 
 .products .product2 .chocolate .d1 .product-card {
@@ -476,23 +508,37 @@ body {
 }
 
 .products .product2 .chocolate .d1 .product-card p {
-    color: var(--White);
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
-    text-align: start !important;
+    text-align: end;
+    margin: 10px 0;
     padding: 5px;
-    border-radius: 10px;
-    border: 3px solid var(--color1);
+    color: var(--White);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--PrimaryColor);
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-style: italic;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 .products .product2 .chocolate .d1 .product-card .btn {
     color: var(--Black);
     background-color: var(--color1);
-    border-color: var(--Black);
+    border: 2px solid var(--color1);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-
-
-
+.products .product2 .chocolate .d1 .product-card .btn:hover {
+    background-color: var(--Black);
+    color: var(--color1);
+}
 
 
 
