@@ -115,84 +115,6 @@ body {
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
 
-.home .parte1 {
-    width: 100%;
-    padding: 2rem;
-}
-
-.home .parte1 .feature p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #333;
-    /* Color del texto para mejor legibilidad */
-    margin-top: 10px;
-}
-
-.home .parte1 .feature img {
-    margin-top: 5px;
-    border-radius: 0.5rem;
-    object-fit: cover;
-    border: 3px solid var(--color2);
-}
-
-.home .parte1 .carousel-item img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.home .parte1 .carousel-control-prev-icon,
-.home .parte1 .carousel-control-next-icon {
-    background-color: var(--color2);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid var(--color2);
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.home .parte1 .feature {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.home .parte1 .feature .feature-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    background-color: var(--color2);
-    border-radius: 50%;
-    color: #D3C891;
-    font-size: 2em;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.home .parte1 .feature h2 {
-    font-size: 2em;
-    color: var(--PrimaryColor);
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-
-.home .linea-vertical .flecha2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color2);
-    font-size: 4em;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 10px;
-
-}
-
-/*-----------------------------------------------------------------------------------------------------------------------*/
-
 .home .parte2 {
     background-color: var(--color2);
 }
@@ -627,6 +549,176 @@ body {
 
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
+.nosotros .parte0 {
+    background-color: var(--color2);
+    width: 100%;
+    padding: 3rem; 
+    color: var(--White);
+}
+
+.nosotros .parte0 h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--White);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+.nosotros .parte0 .nuestra-historia {
+    margin-top: 2rem; 
+    margin-bottom: 2rem; 
+}
+
+.nosotros .parte0 .nuestra-historia h2 {
+    font-size: 2.5rem; 
+    font-weight: 700;
+    color: var(--White);
+    margin-top: 70px;
+    margin-bottom: -1.2rem; 
+    text-transform: capitalize; 
+    letter-spacing: 0.5px; 
+}
+
+.nosotros .parte0 .nuestra-historia .hr1 {
+    padding-bottom: 20px;
+}
+
+.nosotros .parte0 .historia-text {
+    font-size: 1.1rem; 
+    line-height: 1.6; 
+    color: var(--White); 
+}
+
+.nosotros .parte0 .historia-text p {
+    margin-bottom: 1rem;
+}
+
+.nosotros .parte0 .historia-imagen img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 10px; 
+    border: 5px solid var(--color1);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.nosotros .parte0 .historia-imagen img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3);
+}
+
+.nosotros .parte0 .nuestra-historia .hr2 {
+}
+
+.nosotros .parte1 {
+    width: 100%;
+    padding: 2rem;
+}
+
+.nosotros .parte1 .feature p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-top: 10px;
+}
+.nosotros .parte1 h2 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: var(--Black);
+    margin-top: 20px;
+}
+.nosotros .parte1 .feature img {
+    margin-top: 5px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    border: 3px solid var(--color2);
+}
+
+.nosotros .parte1 .carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.nosotros .parte1 .carousel-control-prev-icon,
+.nosotros .parte1 .carousel-control-next-icon {
+    background-color: var(--color2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--color2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nosotros .parte1 .feature {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.nosotros .parte1 .feature .feature-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: var(--color2);
+    border-radius: 50%;
+    color: #D3C891;
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nosotros .parte1 .feature h2 {
+    font-size: 2em;
+    color: var(--PrimaryColor);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.nosotros .linea-vertical .flecha2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color2);
+    font-size: 4em;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 800px) {
    
@@ -680,5 +772,9 @@ body {
     }
     .home .parte4 .bloque3 .lead {
         font-size: 1.2em !important;
+    }
+    .nosotros .parte0 .historia-text {
+        font-size: 0.9em; 
+
     }
 }
