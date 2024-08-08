@@ -21,6 +21,26 @@ body {
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
+.whatsapp {
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #25D366;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 2000;
+    transition: background-color 0.3s;
+}
+
+.whatsapp:hover {
+    background-color: var(--Black);
+}
 
 .back-to-top {
     position: fixed;
@@ -39,6 +59,7 @@ body {
     transition: background-color 0.3s;
 }
 
+
 .back-to-top:hover {
     background-color: #9C0808;
 }
@@ -46,6 +67,8 @@ body {
 .back-to-top i {
     vertical-align: middle;
 }
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
 
 .navbar {
     background-color: transparent;
@@ -127,7 +150,7 @@ body {
 .home .parte2 .bloque1 .row h2 {
     font-size: 2.5em;
     margin-bottom: 1rem;
-    color: var(--PrimaryColor); 
+    color: var(--PrimaryColor);
     font-weight: 700;
 }
 
@@ -158,16 +181,17 @@ body {
     max-height: 500px;
     border-radius: 0.5rem;
     border: 3px solid var(--color1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     object-fit: cover;
 }
 
 .home .parte2 .bloque1 .lead {
     font-size: 1.6em !important;
     line-height: 1.6;
-    color: #f0f0f0; 
+    color: #f0f0f0;
     margin-bottom: 1.5rem;
 }
+
 /*-----------------------------------------------------------------------------------------------------------------------*/
 
 .home .parte3 .bloque2 {
@@ -178,7 +202,7 @@ body {
 .home .parte3 .bloque2 .row h2 {
     font-size: 2.5em;
     margin-bottom: 1rem;
-    color: var(--PrimaryColor); 
+    color: var(--PrimaryColor);
     font-weight: 700;
 }
 
@@ -216,6 +240,7 @@ body {
     border: 2px solid var(--color2);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
 /*-----------------------------------------------------------------------------------------------------------------------*/
 
 .home .parte4 {
@@ -230,7 +255,7 @@ body {
 .home .parte4 .bloque3 .row h2 {
     font-size: 2.5em;
     margin-bottom: 1rem;
-    color: var(--PrimaryColor); 
+    color: var(--PrimaryColor);
     font-weight: 700;
 }
 
@@ -274,6 +299,7 @@ body {
     border: 2px solid var(--color2);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
 /*-----------------------------------------------------------------------------------------------------------------------*/
 
 
@@ -542,17 +568,11 @@ body {
     color: var(--color1);
 }
 
-
-
-
-
-
-
 /*-----------------------------------------------------------------------------------------------------------------------*/
 .nosotros .parte0 {
     background-color: var(--color2);
     width: 100%;
-    padding: 3rem; 
+    padding: 3rem;
     color: var(--White);
 }
 
@@ -566,18 +586,18 @@ body {
 }
 
 .nosotros .parte0 .nuestra-historia {
-    margin-top: 2rem; 
-    margin-bottom: 2rem; 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .nosotros .parte0 .nuestra-historia h2 {
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
     font-weight: 700;
     color: var(--White);
     margin-top: 70px;
-    margin-bottom: -1.2rem; 
-    text-transform: capitalize; 
-    letter-spacing: 0.5px; 
+    margin-bottom: -1.2rem;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
 }
 
 .nosotros .parte0 .nuestra-historia .hr1 {
@@ -585,9 +605,9 @@ body {
 }
 
 .nosotros .parte0 .historia-text {
-    font-size: 1.1rem; 
-    line-height: 1.6; 
-    color: var(--White); 
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--White);
 }
 
 .nosotros .parte0 .historia-text p {
@@ -596,15 +616,15 @@ body {
 
 .nosotros .parte0 .historia-imagen img {
     max-width: 100%;
-    height: auto; 
-    border-radius: 10px; 
+    height: auto;
+    border-radius: 10px;
     border: 5px solid var(--color1);
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .nosotros .parte0 .historia-imagen img:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3);
 }
 
@@ -619,12 +639,14 @@ body {
     color: #333;
     margin-top: 10px;
 }
+
 .nosotros .parte1 h2 {
     font-size: 2.8rem;
     font-weight: 500;
     color: var(--Black);
     margin-top: 20px;
 }
+
 .nosotros .parte1 .feature img {
     margin-top: 5px;
     border-radius: 0.5rem;
@@ -688,13 +710,14 @@ body {
 
 }
 
-
+/*-----------------------------------------------------------------------------------------------------------------------*/
 
 .contact {
     background-color: var(--color2);
     width: 100%;
-    padding: 0.9rem; 
+    padding: 0.9rem;
 }
+
 .contact .texto1 {
     font-size: 4rem;
     font-weight: bold;
@@ -703,23 +726,25 @@ body {
     margin-bottom: 2rem;
     letter-spacing: 1px;
 }
+
 .contact .contact__wrapper {
     border-radius: 15px;
-    overflow: hidden;
 }
 
 .contact .contact__wrapper .contact-info__wrapper {
-    background: linear-gradient(rgba(145, 140, 140, 0.5), rgba(126, 120, 120, 0.5)),
-        url("../assets/img/imagen4.jpg") no-repeat center center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: var(--color2);
     color: var(--White);
+    box-shadow: 0 4px 8px var(--White);
+    border-top: 3px solid var(--White);
+    border-bottom: 3px solid var(--White);
+    border-right: 3px solid var(--White);
 }
 
 .contact .contact__wrapper .contact-info__wrapper h3 {
     font-size: 2.5rem;
     font-weight: bold;
-}
-
-.contact .contact__wrapper .contact-info__list {
 }
 
 .contact .contact__wrapper .contact-info__list li {
@@ -740,42 +765,75 @@ body {
 
 .contact .contact__wrapper .contact-info__list .text-link {
     font-size: 6rem;
-    font-weight:bold;
+    font-weight: bold;
+}
+
+.contact .contact__wrapper .contact-info__list .whatsapp-link {
+    color: var(--White);
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact .contact__wrapper .contact-info__list .whatsapp-link:hover {
+    color: #128C7E;
+}
+
+.contact .contact__wrapper .map-wrapper {
+    margin-top: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact .contact__wrapper .map-wrapper iframe {
+    width: 100%;
+    height: 250px;
+    border: 3px solid var(--color3);
+    border-radius: 10px;
+}
+
+.contact .contact-form__wrapper h3 {
+    color: var(--Black);
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .contact .contact-form__wrapper {
     background-color: var(--color1);
     border-top-left-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 15px;
+    box-shadow: 0 4px 8px var(--White);
+    border-top: 3px solid var(--White);
+    border-bottom: 3px solid var(--White);
+    border-left: 3px solid var(--White);
 }
 
-.contact-form {
+.contact .contact-form__wrapper .contact-form {
     max-width: 600px;
     margin: 0 auto;
-}
-
-.contact-form .form-group {
-    margin-bottom: 1.5rem;
-}
-
-.contact-form label {
-    font-size: 1rem;
-    font-weight: bold;
-    color: var(--White);
-}
-
-.contact-form .form-control {
     border-radius: 5px;
     border: 1px solid var(--color2);
     padding: 0.75rem 1.25rem;
 }
 
-.contact-form .form-control:focus {
+
+.contact .contact-form__wrapper .contact-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+
+.contact .contact-form__wrapper .contact-form label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--Black);
+}
+
+.contact .contact-form__wrapper .contact-form .form-control:focus {
     border-color: var(--color3);
     box-shadow: 0 0 0 0.2rem rgba(var(--color3-rgb), 0.25);
 }
 
-.contact-form .btn-primary {
+.contact .contact-form__wrapper .contact-form .btn-primary {
     background-color: var(--color2);
     border: none;
     border-radius: 5px;
@@ -785,40 +843,43 @@ body {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contact-form .btn-primary:hover {
+.contact .contact-form__wrapper .contact-form .btn-primary:hover {
     background-color: var(--color3);
     box-shadow: 0 4px 8px rgba(var(--color3-rgb), 0.5);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 800px) {
-   
+.contact .contact__wrapper .contact-info__list .contact-icon a {
+    color: var(--White);
+    font-size: 40px;
 }
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {}
 
 @media screen and (max-width: 1000px) {
     .textox {
@@ -844,6 +905,7 @@ body {
     .home .parte1 .carousel-item img {
         height: 300px;
     }
+
     .home .parte2 .bloque1 h2 {
         font-size: 2em;
     }
@@ -853,24 +915,57 @@ body {
     }
 
     .home .parte2 .col-md-5 video {
-        max-height: 500px; 
+        max-height: 500px;
     }
+
     .home .parte2 .bloque1 .lead {
         font-size: 1.3em !important;
     }
 }
+
 @media (max-width: 970px) {
     .home .parte2 .bloque1 .lead {
         font-size: 1.2em !important;
     }
+
     .home .parte3 .bloque2 .lead {
         font-size: 1.2em !important;
     }
+
     .home .parte4 .bloque3 .lead {
         font-size: 1.2em !important;
     }
+
     .nosotros .parte0 .historia-text {
-        font-size: 0.9em; 
+        font-size: 0.9em;
 
     }
+}
+
+@media (max-width: 991px) {
+    .contact .contact__wrapper .contact-info__wrapper {
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 0.1px;
+        background-color: var(--color2);
+        color: var(--White);
+        box-shadow: 0 4px 8px var(--White);
+        border-top: 3px solid var(--White);
+        border-left: 3px solid var(--White);
+        border-right: 3px solid var(--White);
+        border-bottom: none !important;
+    }
+
+    .contact .contact-form__wrapper {
+        background-color: var(--color1);
+        border-top-left-radius: 0.1px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        box-shadow: 0 4px 8px var(--White);
+        border-top: none !important;
+        border-bottom: 3px solid var(--White);
+        border-left: 3px solid var(--White);
+        border-right: 3px solid var(--White);
+    }
+
 }

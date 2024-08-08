@@ -6,21 +6,28 @@ window.onscroll = function() {
     scrollFunction();
 };
 
-function scrollFunction() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        document.querySelector(".back-to-top").style.display = "block";
-    } else {
-        document.querySelector(".back-to-top").style.display = "none";
+document.addEventListener("DOMContentLoaded", function() {
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.querySelector(".back-to-top").style.display = "block";
+        } else {
+            document.querySelector(".back-to-top").style.display = "none";
+        }
     }
-}
 
-document.querySelector(".back-to-top").addEventListener("click", function(event) {
-    event.preventDefault();
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
+    window.onscroll = scrollFunction;
+
+    document.querySelector(".back-to-top").addEventListener("click", function(event) {
+        event.preventDefault();
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
     });
 });
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
     const video = document.getElementById('autoplayVideo');
 
